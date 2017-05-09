@@ -1,6 +1,6 @@
 {
   "name": "@ascari/hosts",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Utility for editing `hosts` files programmatically.",
   "main": "index.js",
   "keywords": ["hosts", "etc/hosts", "vhost"],
