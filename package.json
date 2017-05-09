@@ -1,11 +1,8 @@
 {
-  "name": "hosts",
+  "name": "@ascari/hosts",
   "version": "0.6.0",
   "description": "Utility for editing `hosts` files programmatically.",
   "main": "index.js",
-  "scripts": {
-    "test": "node example.js"
-  },
   "keywords": ["hosts", "etc/hosts", "vhost"],
   "author": "Carlos Ascari Gutierrez Hermosillo <carlos.ascari.x@gmail.com>",
   "license": "MIT"
