@@ -4,7 +4,7 @@ A module for editing `hosts` files programmatically.
 
 ## Install
 
-`npm i <this-git-url> --save`
+`npm i @ascari/hosts --save`
 
 ## Usage
 
