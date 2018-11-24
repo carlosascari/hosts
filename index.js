@@ -1,6 +1,6 @@
 /*!
 * hosts
-* Copyright(c) 2017 Carlos Ascari Gutierrez Hermosillo
+* Copyright(c) 2017-2018 Carlos Ascari Gutierrez Hermosillo
 * MIT Licensed
 */
 

@@ -1,9 +1,16 @@
 {
   "name": "@ascari/hosts",
-  "version": "0.6.3",
-  "description": "Utility for editing `hosts` files programmatically.",
+  "version": "1.0.0",
+  "description": "Edit the hosts file programmatically",
   "main": "index.js",
-  "keywords": ["hosts", "etc/hosts", "vhost"],
-  "author": "Carlos Ascari Gutierrez Hermosillo <carlos.ascari.x@gmail.com>",
-  "license": "MIT"
+  "keywords": [
+    "hosts",
+    "etc/hosts",
+    "vhost"
+  ],
+  "author": "Carlos Ascari Gutierrez Hermosillo <ascari.gtz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "onepath": "^1.1.2"
+  }
 }

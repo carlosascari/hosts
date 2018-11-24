@@ -1,6 +1,6 @@
 # hosts
 
-A module for editing `hosts` files programmatically.
+Edit your `hosts` file programmatically.
 
 ## Install
 
@@ -8,11 +8,15 @@ A module for editing `hosts` files programmatically.
 
 ## Usage
 
+Use set to make certain that a hostname is registered
+
 ```
-const hosts = require('hosts');
+const hosts = require('@ascari/hosts');
 
 // Sync write to hosts file.
-hosts.set('127.0.0.1', 'yourside.dev');
+hosts.set('127.0.0.1', 'mywebsite.dev');
+hosts.set('127.0.0.1', 'mywebsite.com');
+hosts.set('127.0.0.1', 'api.mywebsite.com');
 
 console.log('path', hosts.getPath());
 console.log('entries', hosts.get());
@@ -30,8 +34,7 @@ Get path set for *hosts* file.
 Add a new entry to hosts file.
 
 ##### method unset(*String* ip, *RegExp|String* [hostname])
-Remove a existing entry by its ip and hostname.
-**NOTE: Not implemented.**
+Remove a existing entry or entries by their ip and hostname.
 
 ##### method get(*String* [ip], *RegExp|String* [pattern]) -> *Array of Objects*
 Retrieve a entry by its id and hostname or a regexp pattern to match. If no arguments are set, then all entries are returned.
